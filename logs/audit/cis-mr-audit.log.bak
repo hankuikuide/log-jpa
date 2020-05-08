@@ -1,0 +1,38 @@
+[16:23:11:647] [INFO] - org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: default]
+[16:23:11:750] [INFO] - org.hibernate.Version.logVersion(Version.java:44) - HHH000412: Hibernate ORM core version 5.4.12.Final
+[16:23:11:943] [INFO] - org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:49) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[16:23:12:107] [INFO] - org.hibernate.dialect.Dialect.<init>(Dialect.java:172) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[16:23:12:799] [INFO] - org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[16:23:14:153] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:127) - 
+    select
+        opnfiledo0_.id as id1_0_0_,
+        opnfiledo0_.detail_id as detail_i2_0_0_,
+        opnfiledo0_.file_name as file_nam3_0_0_,
+        opnfiledo0_.hisid as hisid4_0_0_,
+        opnfiledo0_.sid as sid5_0_0_,
+        opnfiledo0_.table_par as table_pa6_0_0_,
+        opnfiledo0_.upload_date as upload_d7_0_0_,
+        opnfiledo0_.version as version8_0_0_ 
+    from
+        opn_file opnfiledo0_ 
+    where
+        opnfiledo0_.id=?
+[16:23:30:355] [INFO] - org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31) - HHH000204: Processing PersistenceUnitInfo [name: default]
+[16:23:30:454] [INFO] - org.hibernate.Version.logVersion(Version.java:44) - HHH000412: Hibernate ORM core version 5.4.12.Final
+[16:23:30:631] [INFO] - org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:49) - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[16:23:30:808] [INFO] - org.hibernate.dialect.Dialect.<init>(Dialect.java:172) - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[16:23:31:508] [INFO] - org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[16:23:32:916] [DEBUG] - org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement(SqlStatementLogger.java:127) - 
+    select
+        opnfiledo0_.id as id1_0_0_,
+        opnfiledo0_.detail_id as detail_i2_0_0_,
+        opnfiledo0_.file_name as file_nam3_0_0_,
+        opnfiledo0_.hisid as hisid4_0_0_,
+        opnfiledo0_.sid as sid5_0_0_,
+        opnfiledo0_.table_par as table_pa6_0_0_,
+        opnfiledo0_.upload_date as upload_d7_0_0_,
+        opnfiledo0_.version as version8_0_0_ 
+    from
+        opn_file opnfiledo0_ 
+    where
+        opnfiledo0_.id=?
